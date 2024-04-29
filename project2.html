@@ -15426,7 +15426,7 @@ This application is used to convert notebook files (*.ipynb)
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
 <pre>
 <span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">CalledProcessError</span>                        Traceback (most recent call last)
+
 <span class="ansi-green-fg">&lt;ipython-input-84-fead7031c054&gt;</span> in <span class="ansi-cyan-fg">&lt;cell line: 1&gt;</span><span class="ansi-blue-fg">()</span>
 <span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>get_ipython<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>run_cell_magic<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;shell&#39;</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#39;&#39;</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#39;jupyter nbconvert --to html /content/project2.ipynb\n&#39;</span><span class="ansi-blue-fg">)</span>
 
@@ -15454,7 +15454,7 @@ This application is used to convert notebook files (*.ipynb)
 <span class="ansi-green-fg">/usr/local/lib/python3.10/dist-packages/google/colab/_system_commands.py</span> in <span class="ansi-cyan-fg">check_returncode</span><span class="ansi-blue-fg">(self)</span>
 <span class="ansi-green-intense-fg ansi-bold">    135</span>   <span class="ansi-green-fg">def</span> check_returncode<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
 <span class="ansi-green-intense-fg ansi-bold">    136</span>     <span class="ansi-green-fg">if</span> self<span class="ansi-blue-fg">.</span>returncode<span class="ansi-blue-fg">:</span>
-<span class="ansi-green-fg">--&gt; 137</span><span class="ansi-red-fg">       raise subprocess.CalledProcessError(
+
 </span><span class="ansi-green-intense-fg ansi-bold">    138</span>           returncode<span class="ansi-blue-fg">=</span>self<span class="ansi-blue-fg">.</span>returncode<span class="ansi-blue-fg">,</span> cmd<span class="ansi-blue-fg">=</span>self<span class="ansi-blue-fg">.</span>args<span class="ansi-blue-fg">,</span> output<span class="ansi-blue-fg">=</span>self<span class="ansi-blue-fg">.</span>output
 <span class="ansi-green-intense-fg ansi-bold">    139</span>       )
 
